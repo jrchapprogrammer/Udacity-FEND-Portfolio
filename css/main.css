@@ -1,9 +1,11 @@
 body {
   display: grid;
   grid-gap: 4rem;
-  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
+
+/* Header */
 
 header {
   display: flex;
@@ -11,6 +13,7 @@ header {
   justify-content: space-between;
   border-bottom: 0.25em solid #7d97ad;
   padding: 1.875em 0;
+  font-family: 'Work Sans', sans-serif;
 }
 .header__logo {
   align-self: flex-start;
@@ -37,7 +40,6 @@ header {
 .header__subtitle {
   align-self: flex-end;
   text-transform: uppercase;
-  /* font-family: 'Work Sans', sans-serif; */
   padding: 0;
   margin: 0;
   font-size: 1.25em;
@@ -61,19 +63,24 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2.1em;
+  justify-content: center;
+  margin-bottom: 2.5em;
+  
 }
 
 .main-title {
   color: #7d97ad;
   font-size: 2.25em;
-  font-weight: 400;
-/*   font-family: 'Work Sans', sans-serif; */
+  font-weight: 100;
+  margin: 0;
+  line-height: 0;
 }
 
 .work__block {
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .work__img {
@@ -86,10 +93,12 @@ header {
   text-transform: uppercase;
   font-size: 2.5em;
   font-weight: 100;
+  line-height: 0;
 }
 
 .work__link {
   text-decoration: none;
   color: #2d3c49;
   font-weight: 100;
+  line-height: 0;
 }

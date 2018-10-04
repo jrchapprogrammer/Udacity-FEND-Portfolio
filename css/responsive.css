@@ -1,6 +1,13 @@
 @media screen and (max-width: 500px) {
   body {
-    font-size: 75%;
+    font-size: 67%;
+  }
+  
+  .hero {
+    padding-bottom: 2.5em;
+  }
+  .hero__img {
+    height: 130%;
   }
 }
 
