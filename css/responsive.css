@@ -2,7 +2,7 @@
   body {
     font-size: 67%;
   }
-  
+
   .hero {
     padding-bottom: 2.5em;
   }
@@ -11,8 +11,8 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 768) {
- body {
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  body {
     font-size: 80%;
-  } 
+  }
 }
